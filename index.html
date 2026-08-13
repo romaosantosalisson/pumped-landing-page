@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PUMPED - Landing Page</title>
+  <!-- Favicon: dumbbells of black color with white background -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='white' rx='20'/%3E%3Crect x='15' y='30' width='12' height='40' rx='4' fill='black'/%3E%3Crect x='8' y='35' width='7' height='30' rx='2' fill='black'/%3E%3Crect x='73' y='30' width='12' height='40' rx='4' fill='black'/%3E%3Crect x='85' y='35' width='7' height='30' rx='2' fill='black'/%3E%3Crect x='27' y='46' width='46' height='8' rx='2' fill='black'/%3E%3C/svg%3E" />
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER SECTION -->
+  <header class="header">
+    <div class="header-container">
+      <!-- Logo in the left corner -->
+      <div class="logo">
+        <span class="logo-text">PUMPED</span>
+      </div>
+
+      <!-- Hidden checkbox toggle for mobile hamburger menu -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+
+      <!-- Navbar (Home, Portfolio, Contato) aligned between logo and download button on desktop -->
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#portfolio" class="nav-link">Funcionalidades</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action elements on the right (Download button and mobile menu icon) -->
+      <div class="header-actions">
+        <a href="#download" class="btn-download">Baixar App</a>
+        
+        <!-- Hamburger button (visible only on mobile) -->
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu de Navegação">
+          <span></span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      
+      <!-- Left Column: Headline (Clean, moderate, sophisticated) -->
+      <div class="hero-left">
+        <h1 class="hero-headline">O app perfeito para acompanhar sua vida fitness.</h1>
+      </div>
+
+      <!-- Center Column: Main App Screenshot (Featured & Highlighted) -->
+      <div class="hero-center">
+        <div class="phone-wrapper">
+          <img src="assets/images/image-1.png" alt="Print da tela inicial do aplicativo PUMPED" class="phone-mockup" />
+        </div>
+      </div>
+
+      <!-- Right Column: Key Points Card List -->
+      <div class="hero-right">
+        <ul class="key-points">
+          <li class="key-point-item">
+            <span class="key-point-icon">🏃🏽</span>
+            <span class="key-point-text">Saúde</span>
+          </li>
+          <li class="key-point-item">
+            <span class="key-point-icon">💪🏻</span>
+            <span class="key-point-text">Exercício</span>
+          </li>
+          <li class="key-point-item">
+            <span class="key-point-icon">👥</span>
+            <span class="key-point-text">Amigos</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FUNCIONALIDADES (PORTFOLIO) SECTION -->
+  <section class="features" id="portfolio">
+    <div class="features-container">
+      
+      <!-- Section Intro Header -->
+      <div class="section-header">
+        <span class="section-tag">Funcionalidades</span>
+        <h2 class="section-title">Construído para elevar seus treinos a outro nível</h2>
+      </div>
+
+      <!-- Feature Rows -->
+      <div class="features-rows">
+        
+        <!-- Row 1: print / texto (Contagem de Calorias) -->
+        <div class="features-row">
+          <div class="features-col-image">
+            <div class="phone-wrapper">
+              <img src="assets/images/image-2.png" alt="Tela de contagem de calorias do PUMPED" class="phone-mockup" />
+            </div>
+          </div>
+          <div class="features-col-text">
+            <span class="feature-tag">Nutrição & Saúde</span>
+            <h3 class="feature-title">Controle Alimentar Inteligente</h3>
+            <p class="feature-desc">
+              Monitore sua alimentação de forma rápida e eficiente. O PUMPED calcula o balanço exato de calorias e macronutrientes com base nos seus objetivos pessoais, mantendo você focado na sua melhor performance nutritiva diária.
+            </p>
+          </div>
+        </div>
+
+        <!-- Row 2: texto / print (Exercícios específicos) -->
+        <div class="features-row">
+          <div class="features-col-image">
+            <div class="phone-wrapper">
+              <img src="assets/images/image-3.png" alt="Tela de treinos específicos do PUMPED" class="phone-mockup" />
+            </div>
+          </div>
+          <div class="features-col-text">
+            <span class="feature-tag">Treinos Sob Medida</span>
+            <h3 class="feature-title">Exercícios Direcionados</h3>
+            <p class="feature-desc">
+              Não importa se sua preferência é corrida, musculação, HIIT ou ioga. Tenha acesso a rotinas de exercícios específicos desenhadas por profissionais com cronômetros dedicados e feedbacks de desempenho em tempo real.
+            </p>
+          </div>
+        </div>
+
+        <!-- Row 3: print / texto (Compartilhamento com amigos) -->
+        <div class="features-row">
+          <div class="features-col-image">
+            <div class="phone-wrapper">
+              <img src="assets/images/image-1.png" alt="Tela de compartilhamento e social do PUMPED" class="phone-mockup" />
+            </div>
+          </div>
+          <div class="features-col-text">
+            <span class="feature-tag">Conexão Social</span>
+            <h3 class="feature-title">A Força da Comunidade</h3>
+            <p class="feature-desc">
+              Treinar com quem nos apoia torna tudo mais divertido e desafiador. Acompanhe a atividade física do seu grupo de amigos, comemore marcos importantes e compartilhe estatísticas de treino instantaneamente.
+            </p>
+            <a href="#download" class="btn-functional">📲 Compartilhamento com amigos</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-text">Todos os direitos reservados &copy; 2026</p>
+    </div>
+  </footer>
+</body>
+</html>
