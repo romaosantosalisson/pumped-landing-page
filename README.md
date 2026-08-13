@@ -79,7 +79,7 @@ Como alternativa, use a extensão **Live Server** do VS Code para servir a pági
 
 Os botões e links de “Baixar App” apontam para a âncora `#download`, e o link “Contato” aponta para `#contato`. Essas seções ainda não existem no HTML, portanto podem ser adicionadas quando houver um destino real para essas ações.
 
-<div>Feito com ❤️ e ☕ por <strong>Álisson</strong> &copy; 2026</div 
+<div align="center">Feito com ❤️ e ☕ por <strong>Álisson</strong> &copy; 2026</div 
 
 ---
 # PUMPED
@@ -164,4 +164,4 @@ Alternatively, use the **Live Server** VS Code extension to serve the page local
 The “Baixar App” buttons link to the `#download` anchor, and the Contact link points to `#contato`. Those sections are not present in the current HTML yet, so they can be added when real destinations are available.
 
 ---
-<div>Made with ❤️ and ☕ by <strong>Álisson</strong> &copy; 2026</div 
+<div align="center">Made with ❤️ and ☕ by <strong>Álisson</strong> &copy; 2026</div 
