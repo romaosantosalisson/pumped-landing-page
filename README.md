@@ -1,6 +1,6 @@
 # PUMPED — Landing Page
-
-[🇬🇧 English version](#-english-version)
+## Versão em Português
+[🇬🇧 English Version](#-english-version)
 
 Landing page responsiva para o conceito de aplicativo fitness **PUMPED**. O projeto apresenta uma interface minimalista em preto e branco, criada com HTML e CSS puros, para destacar acompanhamento de saúde, exercícios e recursos sociais.
 
@@ -82,10 +82,9 @@ Os botões e links de “Baixar App” apontam para a âncora `#download`, e o l
 <div>Feito com ❤️ e ☕ por <strong>Álisson</strong> &copy; 2026</div 
 
 ---
-
-## 🇬🇧 English version
-
 # PUMPED
+## 🇬🇧 English Version
+[🇧🇷 Versão em Português](#versão-em-português)
 
 Responsive landing page for the **PUMPED** fitness app concept. The project uses a clean black-and-white interface built with plain HTML and CSS to showcase health tracking, workouts, and social features.
 
