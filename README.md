@@ -1,172 +1,539 @@
-# PUMPED — Landing Page
-## Versão em Português
-[🇬🇧 English Version](#-english-version)
+<div align="center">
 
-Landing page responsiva para o conceito de aplicativo fitness **PUMPED**. O projeto apresenta uma interface minimalista em preto e branco, criada com HTML e CSS puros, para destacar acompanhamento de saúde, exercícios e recursos sociais.
+  # 🏋️ PUMPED
 
-## Visão geral
+  ### Your fitness. Your progress. Your community.
 
-A página foi construída como um projeto front-end estático, sem dependências, framework, JavaScript ou etapa de compilação. Ela utiliza a fonte Roboto do Google Fonts e capturas de tela locais do aplicativo para compor a apresentação. As interações visuais e o menu mobile são feitos apenas com CSS.
+  Landing page responsiva para o conceito de um aplicativo fitness, desenvolvida com **HTML5 e CSS3**, com foco em uma experiência visual moderna, minimalista e totalmente adaptável a diferentes dispositivos.
 
-![Tela inicial do aplicativo PUMPED](assets/images/image-1.png)
+  <br />
 
-## Funcionalidades da página
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![Roboto](https://img.shields.io/badge/Font-Roboto-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)
+  ![Responsive](https://img.shields.io/badge/Design-Responsive-111111?style=for-the-badge)
 
-- Cabeçalho fixo com marca PUMPED, navegação e botão de download.
-- Menu hambúrguer em telas menores, implementado somente com HTML e CSS.
-- Seção hero com chamada principal, mockup do aplicativo e cartões de benefícios.
-- Seção de funcionalidades com layouts alternados para apresentar nutrição, treinos e comunidade.
-- Efeitos de hover em links, botões, cartões e mockups.
-- Layout responsivo com pontos de quebra em 640 px, 768 px, 1024 px, 1280 px e 1536 px.
-- Rolagem suave entre as seções internas.
+</div>
 
-## Tecnologias
+---
 
-- HTML5
-- CSS3
-- [Roboto](https://fonts.google.com/specimen/Roboto), via Google Fonts
+## 📖 Sobre o Projeto
 
-## Estrutura do projeto
+O **PUMPED** é uma landing page criada para apresentar o conceito de um aplicativo voltado para **fitness, saúde, exercícios e interação social**.
+
+A interface utiliza uma estética **minimalista em preto e branco**, combinando tipografia, espaçamento, imagens e microinterações para criar uma apresentação visual moderna e objetiva.
+
+O projeto foi desenvolvido como uma aplicação **front-end estática**, utilizando apenas tecnologias nativas da Web:
+
+- 🧱 HTML5
+- 🎨 CSS3
+- 🔤 Google Fonts
+- 🖼️ Imagens locais
+
+> 💡 **Sem frameworks, sem bibliotecas de UI e sem processo de build.**
+
+---
+
+## 🎯 Objetivo
+
+O principal objetivo do projeto é construir uma **landing page de alta qualidade visual** para um produto digital fictício, explorando conceitos de:
+
+- 📐 Layout responsivo
+- 📱 Desenvolvimento **Mobile-First**
+- 🎨 Design minimalista
+- 🪟 Hierarquia visual
+- ✨ Microinterações
+- 🧩 Organização semântica do HTML
+- 🎯 Call-to-actions
+- 🖼️ Apresentação de mockups
+- 🧭 Navegação entre seções
+- ⚡ CSS moderno
+
+---
+
+## 🖥️ Demonstração
+
+### 🏠 Página Inicial
+
+<p align="center">
+  <img
+    src="assets/images/image-1.png"
+    alt="Tela inicial do aplicativo PUMPED"
+    width="350px"
+  />
+</p>
+
+### 🔥 Outras telas do aplicativo
+
+<p align="center">
+  <img
+    src="assets/images/image-2.png"
+    alt="Tela de acompanhamento de calorias do PUMPED"
+    width="350px"
+  />
+  <img
+    src="assets/images/image-3.png"
+    alt="Tela de exercícios direcionados do PUMPED"
+    width="350px"
+  />
+</p>
+
+---
+
+## ✨ Funcionalidades
+
+### 🧭 Navegação
+
+O cabeçalho apresenta:
+
+- 🏋️ Identidade visual do PUMPED
+- 🏠 Link para a seção inicial
+- ✨ Link para funcionalidades
+- 📩 Link para contato
+- 📲 Call-to-action para download do aplicativo
+
+A navegação utiliza rolagem suave para proporcionar uma transição mais agradável entre as seções.
+
+---
+
+### 📱 Menu Mobile
+
+Em telas menores, a navegação é adaptada para um **menu hambúrguer**.
+
+O menu é implementado utilizando apenas:
+
+- HTML
+- CSS
+- Interações nativas
+
+Não é necessário JavaScript ou biblioteca externa para implementar esse comportamento.
+
+---
+
+### 🚀 Seção Hero
+
+A seção principal apresenta:
+
+- 🎯 Headline de destaque
+- 📝 Texto introdutório
+- 📱 Mockup do aplicativo
+- ❤️ Benefícios da plataforma
+- 🏃 Exercícios
+- 🥗 Saúde
+- 👥 Comunidade
+
+O objetivo é apresentar rapidamente a proposta do produto e direcionar o usuário para a ação principal.
+
+---
+
+### 🧩 Seção de Funcionalidades
+
+A seção de funcionalidades apresenta os principais recursos do conceito PUMPED através de layouts alternados.
+
+#### 🥗 Controle Alimentar
+
+Apresentação do conceito de acompanhamento inteligente da alimentação e das calorias.
+
+#### 🏃 Exercícios Direcionados
+
+Apresentação de exercícios e treinos direcionados aos objetivos do usuário.
+
+#### 👥 Comunidade
+
+Recursos voltados para interação social e conexão entre usuários.
+
+---
+
+### ✨ Microinterações
+
+A interface possui diversos efeitos visuais para tornar a navegação mais dinâmica:
+
+- 🖱️ Hover em links
+- 🔘 Hover em botões
+- 🃏 Animações em cards
+- 📱 Efeitos nos mockups
+- 📈 Transformações com `scale`
+- 🔄 Transições suaves
+- 🌊 Rolagem suave entre seções
+
+Essas interações ajudam a fornecer feedback visual ao usuário sem comprometer a simplicidade da interface.
+
+---
+
+# 📱 Design Responsivo
+
+Um dos principais objetivos do projeto é proporcionar uma experiência consistente em diferentes tamanhos de tela.
+
+A interface foi desenvolvida seguindo o padrão **Mobile-First**.
+
+## 📐 Abordagem Mobile-First
+
+Em vez de desenvolver primeiro para desktops e posteriormente adaptar para dispositivos móveis, o projeto parte inicialmente de uma estrutura otimizada para **telas pequenas**.
+
+A partir dessa base, o layout é progressivamente expandido para telas maiores através de **Media Queries**.
+
+### 📱 Estratégia
 
 ```text
-.
+📱 Mobile
+   ↓
+📲 Tablet
+   ↓
+💻 Notebook
+   ↓
+🖥️ Desktop
+   ↓
+🖥️ Large Desktop
+````
+
+Essa abordagem facilita a criação de interfaces mais flexíveis e evita que a experiência em dispositivos móveis seja tratada apenas como uma adaptação da versão desktop.
+
+---
+
+## 📏 Breakpoints
+
+O projeto utiliza os seguintes pontos de quebra:
+
+| Breakpoint |  Largura  | Aplicação           |
+| :--------: | :-------: | :------------------ |
+|   📱 Base  | `< 640px` | Smartphones         |
+|   📲 `sm`  |  `640px`  | Smartphones maiores |
+|   📲 `md`  |  `768px`  | Tablets             |
+|   💻 `lg`  |  `1024px` | Notebooks           |
+|  🖥️ `xl`  |  `1280px` | Desktops            |
+|  🖥️ `2xl` |  `1536px` | Monitores grandes   |
+
+Os elementos da interface se reorganizam progressivamente conforme o espaço disponível aumenta.
+
+---
+
+## 🎨 Identidade Visual
+
+A identidade visual do PUMPED utiliza uma abordagem minimalista baseada principalmente em **preto, branco e tons neutros**.
+
+O design prioriza:
+
+* ⚫ Alto contraste
+* ⚪ Espaços em branco
+* 🔤 Tipografia forte
+* 📐 Composição geométrica
+* 🖼️ Imagens de destaque
+* 🎯 Hierarquia visual
+* ✨ Microinterações discretas
+
+Essa combinação cria uma interface moderna e focada no conteúdo.
+
+---
+
+## 🔤 Tipografia
+
+A aplicação utiliza a fonte **Roboto**, disponibilizada através do Google Fonts.
+
+A utilização de diferentes pesos tipográficos permite criar uma hierarquia visual clara entre:
+
+* 🏷️ Títulos
+* 📝 Textos
+* 🔘 Botões
+* 🧭 Navegação
+* 📊 Informações complementares
+
+---
+
+## ♿ Estrutura e Experiência do Usuário
+
+A estrutura da página utiliza elementos HTML semânticos para organizar o conteúdo de forma lógica.
+
+A interface também considera aspectos importantes de experiência do usuário, como:
+
+* 🧭 Navegação clara
+* 📖 Hierarquia de conteúdo
+* 👆 Áreas de interação bem definidas
+* 🎯 CTAs destacados
+* 📱 Adaptação para telas pequenas
+* 🖱️ Feedback visual através de estados `hover`
+* 🌊 Rolagem suave
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia    | Utilização                                     |
+| :------------ | :--------------------------------------------- |
+| 🧱 **HTML5**  | Estrutura semântica e conteúdo da página       |
+| 🎨 **CSS3**   | Layout, responsividade, animações e interações |
+| 🔤 **Roboto** | Tipografia através do Google Fonts             |
+| 🖼️ **PNG**   | Imagens e mockups utilizados na apresentação   |
+
+### 🚫 Sem Frameworks
+
+O projeto foi desenvolvido sem frameworks ou bibliotecas frontend.
+
+Não utiliza:
+
+* ❌ React
+* ❌ Vue
+* ❌ Angular
+* ❌ Bootstrap
+* ❌ Tailwind CSS
+
+A interface é construída utilizando **HTML e CSS puros**.
+
+---
+
+## 🧩 Conceitos de CSS Utilizados
+
+O projeto explora diversos recursos modernos do CSS, incluindo:
+
+* 📐 Flexbox
+* 🧱 CSS Grid
+* 📱 Media Queries
+* 🎨 Gradientes
+* ✨ Transições
+* 🖱️ Pseudo-classes
+* 🔄 `transform`
+* 🌊 `scroll-behavior`
+* 🎯 Posicionamento responsivo
+* 📏 Unidades relativas
+* 🎭 Estados de interação
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+pumped-landing-page/
+│
 ├── assets/
 │   └── images/
 │       ├── image-1.png      # Tela inicial/social do aplicativo
-│       ├── image-2.png      # Tela de contagem de calorias
+│       ├── image-2.png      # Tela de acompanhamento de calorias
 │       └── image-3.png      # Tela de exercícios direcionados
+│
 ├── docs/
-│   └── plan.md              # Briefing e plano inicial do projeto
-├── .gitignore               # Arquivos e pastas ignorados pelo Git
+│   └── plan.md              # Briefing e planejamento inicial
+│
 ├── index.html               # Estrutura e conteúdo da landing page
-├── styles.css               # Estilos, interações e responsividade
-└── README.md
+├── styles.css               # Estilos, responsividade e interações
+└── README.md                # Documentação do projeto
 ```
 
-## Seções
+---
 
-| Seção | Conteúdo |
-| --- | --- |
-| Cabeçalho | Logo, links para Home, Funcionalidades e Contato, além do CTA “Baixar App”. |
-| Hero | Mensagem principal, tela inicial do app e benefícios: Saúde, Exercício e Amigos. |
-| Funcionalidades | Controle alimentar inteligente, exercícios direcionados e conexão social. |
-| Rodapé | Aviso de direitos reservados de 2026. |
+## 🗂️ Estrutura da Página
 
-## Como executar localmente
-
-1. Clone este repositório:
-
-   ```bash
-   git clone <URL-DO-REPOSITORIO>
-   ```
-
-2. Entre na pasta do projeto:
-
-   ```bash
-   cd pumped-landing-page
-   ```
-
-3. Abra o arquivo `index.html` no navegador.
-
-Como alternativa, use a extensão **Live Server** do VS Code para servir a página localmente e atualizar as alterações automaticamente.
-
-## Personalização
-
-- Edite os textos e a estrutura da página em `index.html`.
-- Ajuste as cores, espaçamentos, animações e breakpoints em `styles.css`. As variáveis CSS no seletor `:root` centralizam os principais tokens visuais.
-- Substitua as imagens em `assets/images/`, mantendo os mesmos nomes ou atualizando os caminhos no HTML.
-
-## Observações
-
-Os botões e links de “Baixar App” apontam para a âncora `#download`, e o link “Contato” aponta para `#contato`. Essas seções ainda não existem no HTML, portanto podem ser adicionadas quando houver um destino real para essas ações. Embora o arquivo `script.js` tenha sido citado, ele não existe no estado atual do projeto.
+| Seção             | Descrição                            |
+| :---------------- | :----------------------------------- |
+| 🧭 **Header**     | Logo, navegação e CTA para download  |
+| 🚀 **Hero**       | Apresentação principal do produto    |
+| ❤️ **Benefícios** | Saúde, exercícios e comunidade       |
+| 🥗 **Nutrição**   | Conceito de acompanhamento alimentar |
+| 🏃 **Treinos**    | Exercícios direcionados              |
+| 👥 **Comunidade** | Recursos sociais                     |
+| 🦶 **Footer**     | Informações de direitos autorais     |
 
 ---
 
-<div align="center">Feito com ❤️ e ☕ por <strong>Álisson</strong> &copy; 2026</div 
+## 🔗 Navegação e CTAs
 
----
-# PUMPED
-## 🇬🇧 English Version
-[🇧🇷 Versão em Português](#versão-em-português)
+A landing page possui chamadas para ação distribuídas pela interface.
 
-Responsive landing page for the **PUMPED** fitness app concept. The project uses a clean black-and-white interface built with plain HTML and CSS to showcase health tracking, workouts, and social features.
+### 📲 Baixar App
 
-## Overview
-
-This is a static front-end project with no dependencies, frameworks, JavaScript, or build step. It loads the Roboto typeface from Google Fonts and uses local app screenshots to support the presentation. Visual interactions and the mobile menu are powered by CSS only.
-
-![PUMPED app home screen](assets/images/image-1.png)
-
-## Page features
-
-- Sticky header with the PUMPED brand, navigation, and a download button.
-- Mobile hamburger menu implemented with HTML and CSS only.
-- Hero section with a headline, app mockup, and benefit cards.
-- Feature section with alternating layouts for nutrition, workouts, and community.
-- Hover effects for links, buttons, cards, and phone mockups.
-- Responsive layout with breakpoints at 640 px, 768 px, 1024 px, 1280 px, and 1536 px.
-- Smooth scrolling between in-page sections.
-
-## Technologies
-
-- HTML5
-- CSS3
-- [Roboto](https://fonts.google.com/specimen/Roboto), loaded from Google Fonts
-
-## Project structure
+Os botões de download utilizam a âncora:
 
 ```text
-.
-├── assets/
-│   └── images/
-│       ├── image-1.png      # App home/social screen
-│       ├── image-2.png      # Calorie-tracking screen
-│       └── image-3.png      # Targeted-workout screen
-├── docs/
-│   └── plan.md              # Original brief and project plan
-├── .gitignore               # Files and folders ignored by Git
-├── index.html               # Landing page structure and content
-├── styles.css               # Styles, interactions, and responsiveness
-└── README.md
+#download
 ```
 
-## Sections
+### 📩 Contato
 
-| Section | Content |
-| --- | --- |
-| Header | Logo, Home, Features, and Contact links, plus the “Baixar App” CTA. |
-| Hero | Main message, app home screen, and Health, Exercise, and Friends benefits. |
-| Features | Smart food tracking, targeted exercises, and social connection. |
-| Footer | 2026 copyright notice. |
+O link de contato utiliza:
 
-## Run locally
+```text
+#contato
+```
 
-1. Clone the repository:
-
-   ```bash
-   git clone <REPOSITORY-URL>
-   ```
-
-2. Move into the project directory:
-
-   ```bash
-   cd pumped-landing-page
-   ```
-
-3. Open `index.html` in your browser.
-
-Alternatively, use the **Live Server** VS Code extension to serve the page locally and refresh changes automatically.
-
-## Customization
-
-- Change page copy and markup in `index.html`.
-- Adjust colors, spacing, animations, and breakpoints in `styles.css`. The CSS variables in `:root` centralize the main visual tokens.
-- Replace images under `assets/images/`, keeping their filenames or updating the image paths in the HTML.
-
-## Notes
-
-The “Baixar App” buttons link to the `#download` anchor, and the Contact link points to `#contato`. Those sections are not present in the current HTML yet, so they can be added when real destinations are available. Although `script.js` was mentioned, it does not exist in the current project state.
+> ⚠️ Atualmente, essas âncoras estão preparadas na navegação, mas as respectivas seções ainda não possuem um destino real no HTML.
 
 ---
 
-<div align="center">Made with ❤️ and ☕ by <strong>Álisson</strong> &copy; 2026</div 
+## 🚀 Como Executar Localmente
+
+O projeto é totalmente estático e não possui dependências ou processo de compilação.
+
+### 📋 Pré-requisitos
+
+Você precisa apenas de:
+
+* 🌐 Um navegador moderno
+* 📁 Os arquivos do projeto
+* 💻 Opcionalmente, VS Code
+
+---
+
+### 1️⃣ Clone o repositório
+
+```bash
+git clone https://github.com/romaosantosalisson/pumped-landing-page.git
+```
+
+### 2️⃣ Entre na pasta
+
+```bash
+cd pumped-landing-page
+```
+
+### 3️⃣ Abra o projeto
+
+Abra o arquivo:
+
+```text
+index.html
+```
+
+diretamente no navegador.
+
+---
+
+## 💻 Utilizando o Live Server
+
+Para uma experiência melhor durante o desenvolvimento, você pode utilizar a extensão **Live Server** no Visual Studio Code.
+
+### Passos
+
+1. 📂 Abra o projeto no VS Code.
+2. 🔌 Instale a extensão Live Server.
+3. ▶️ Clique em **Go Live**.
+4. 🌐 O projeto será aberto automaticamente no navegador.
+5. 🔄 As alterações serão atualizadas automaticamente.
+
+---
+
+## ✏️ Personalização
+
+### 📝 Conteúdo
+
+Os textos e a estrutura da página podem ser alterados no:
+
+```text
+index.html
+```
+
+### 🎨 Estilos
+
+Cores, espaçamentos, tipografia, animações e breakpoints podem ser ajustados em:
+
+```text
+styles.css
+```
+
+### 🖼️ Imagens
+
+As imagens utilizadas pela landing page estão localizadas em:
+
+```text
+assets/images/
+```
+
+Para substituí-las, mantenha os nomes dos arquivos ou atualize os respectivos caminhos no `index.html`.
+
+---
+
+## 🎓 Conceitos Praticados
+
+Este projeto permite praticar diversos fundamentos do desenvolvimento frontend:
+
+* 🧱 HTML semântico
+* 🎨 CSS moderno
+* 📱 Design **Mobile-First**
+* 📐 Layout responsivo
+* 🧩 Flexbox
+* 🧱 CSS Grid
+* 📏 Media Queries
+* ✨ CSS Transitions
+* 🖱️ Estados `hover`
+* 🔄 Transformações CSS
+* 🧭 Navegação interna
+* 🌊 Smooth Scrolling
+* 🖼️ Responsividade de imagens
+* 🎯 Hierarquia visual
+* 📱 Interface adaptável
+
+---
+
+## 💡 Destaques Técnicos
+
+### 📱 Mobile-First
+
+A estrutura inicial do CSS é pensada para dispositivos móveis e utiliza Media Queries para expandir o layout conforme a largura da tela aumenta.
+
+### 🎨 CSS Puro
+
+Toda a interface visual é construída utilizando CSS nativo, sem frameworks ou bibliotecas de componentes.
+
+### 🧩 Layout Flexível
+
+Flexbox e Grid são utilizados para organizar os diferentes elementos da landing page e permitir que eles se adaptem aos diferentes tamanhos de viewport.
+
+### ✨ Microinterações
+
+Transições e transformações CSS fornecem feedback visual durante a interação com botões, links, cards e mockups.
+
+### 🌊 Navegação Suave
+
+A propriedade `scroll-behavior` proporciona uma transição suave ao navegar entre as seções da página.
+
+---
+
+## 📌 Status do Projeto
+
+<div align="center">
+
+🟢 **Concluído**
+
+Projeto desenvolvido como uma landing page estática para prática e demonstração de conceitos de desenvolvimento frontend.
+
+</div>
+
+---
+
+## 👨🏻‍💻 Autor
+
+<div align="center">
+
+### Álisson Romão Santos
+
+Desenvolvido com ❤️ e ☕ utilizando HTML5 e CSS3.
+
+  <br />
+
+  <a href="https://github.com/romaosantosalisson">
+    <img
+      src="https://img.shields.io/badge/GitHub-Álisson%20Romão%20Santos-181717?style=for-the-badge&logo=github&logoColor=white"
+      alt="GitHub - Álisson Romão Santos"
+    />
+  </a>
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Gostou do projeto?
+
+Se o **PUMPED** foi útil ou interessante para você, considere deixar uma ⭐ no repositório!
+
+  <br />
+
+🏋️ **PUMPED**
+
+  <br />
+
+*Feito com ❤️ e ☕ por Álisson Romão Santos.*
+
+  <br />
+
+**© 2026 — Álisson Romão Santos**
+
+</div>
