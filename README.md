@@ -1,6 +1,6 @@
 <div align="center">
 
-  # 🏋️ PUMPED
+  # 🏋🏻‍♂️ PUMPED
 
   ### Your fitness. Your progress. Your community.
 
@@ -327,9 +327,9 @@ pumped-landing-page/
 | 🚀 **Hero**       | Apresentação principal do produto    |
 | ❤️ **Benefícios** | Saúde, exercícios e comunidade       |
 | 🥗 **Nutrição**   | Conceito de acompanhamento alimentar |
-| 🏃 **Treinos**    | Exercícios direcionados              |
+| 🏃🏻‍♀️ **Treinos**    | Exercícios direcionados              |
 | 👥 **Comunidade** | Recursos sociais                     |
-| 🦶 **Footer**     | Informações de direitos autorais     |
+| 🦶🏻 **Footer**     | Informações de direitos autorais     |
 
 ---
 
@@ -526,7 +526,7 @@ Se o **PUMPED** foi útil ou interessante para você, considere deixar uma ⭐ n
 
   <br />
 
-🏋️ **PUMPED**
+🏋🏻‍♂️ **PUMPED**
 
   <br />
 
