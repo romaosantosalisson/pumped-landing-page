@@ -86,7 +86,7 @@ O principal objetivo do projeto é construir uma **landing page de alta qualidad
 
 O cabeçalho apresenta:
 
-- 🏋️ Identidade visual do PUMPED
+- 🏋🏻‍♂️ Identidade visual do PUMPED
 - 🏠 Link para a seção inicial
 - ✨ Link para funcionalidades
 - 📩 Link para contato
@@ -118,7 +118,7 @@ A seção principal apresenta:
 - 📝 Texto introdutório
 - 📱 Mockup do aplicativo
 - ❤️ Benefícios da plataforma
-- 🏃 Exercícios
+- 🏃🏻‍♀️ Exercícios
 - 🥗 Saúde
 - 👥 Comunidade
 
@@ -134,7 +134,7 @@ A seção de funcionalidades apresenta os principais recursos do conceito PUMPED
 
 Apresentação do conceito de acompanhamento inteligente da alimentação e das calorias.
 
-#### 🏃 Exercícios Direcionados
+#### 🏃🏻‍♀️ Exercícios Direcionados
 
 Apresentação de exercícios e treinos direcionados aos objetivos do usuário.
 
@@ -247,7 +247,7 @@ A interface também considera aspectos importantes de experiência do usuário, 
 
 * 🧭 Navegação clara
 * 📖 Hierarquia de conteúdo
-* 👆 Áreas de interação bem definidas
+* 👆🏼 Áreas de interação bem definidas
 * 🎯 CTAs destacados
 * 📱 Adaptação para telas pequenas
 * 🖱️ Feedback visual através de estados `hover`
@@ -344,16 +344,6 @@ Os botões de download utilizam a âncora:
 ```text
 #download
 ```
-
-### 📩 Contato
-
-O link de contato utiliza:
-
-```text
-#contato
-```
-
-> ⚠️ Atualmente, essas âncoras estão preparadas na navegação, mas as respectivas seções ainda não possuem um destino real no HTML.
 
 ---
 
