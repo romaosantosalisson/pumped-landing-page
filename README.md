@@ -6,7 +6,7 @@ Landing page responsiva para o conceito de aplicativo fitness **PUMPED**. O proj
 
 ## Visão geral
 
-A página foi construída como um projeto front-end estático, sem dependências, framework ou etapa de compilação. Ela utiliza a fonte Roboto do Google Fonts e capturas de tela locais do aplicativo para compor a apresentação.
+A página foi construída como um projeto front-end estático, sem dependências, framework, JavaScript ou etapa de compilação. Ela utiliza a fonte Roboto do Google Fonts e capturas de tela locais do aplicativo para compor a apresentação. As interações visuais e o menu mobile são feitos apenas com CSS.
 
 ![Tela inicial do aplicativo PUMPED](assets/images/image-1.png)
 
@@ -37,6 +37,7 @@ A página foi construída como um projeto front-end estático, sem dependências
 │       └── image-3.png      # Tela de exercícios direcionados
 ├── docs/
 │   └── plan.md              # Briefing e plano inicial do projeto
+├── .gitignore               # Arquivos e pastas ignorados pelo Git
 ├── index.html               # Estrutura e conteúdo da landing page
 ├── styles.css               # Estilos, interações e responsividade
 └── README.md
@@ -77,7 +78,7 @@ Como alternativa, use a extensão **Live Server** do VS Code para servir a pági
 
 ## Observações
 
-Os botões e links de “Baixar App” apontam para a âncora `#download`, e o link “Contato” aponta para `#contato`. Essas seções ainda não existem no HTML, portanto podem ser adicionadas quando houver um destino real para essas ações.
+Os botões e links de “Baixar App” apontam para a âncora `#download`, e o link “Contato” aponta para `#contato`. Essas seções ainda não existem no HTML, portanto podem ser adicionadas quando houver um destino real para essas ações. Embora o arquivo `script.js` tenha sido citado, ele não existe no estado atual do projeto.
 
 ---
 
@@ -92,7 +93,7 @@ Responsive landing page for the **PUMPED** fitness app concept. The project uses
 
 ## Overview
 
-This is a static front-end project with no dependencies, frameworks, or build step. It loads the Roboto typeface from Google Fonts and uses local app screenshots to support the presentation.
+This is a static front-end project with no dependencies, frameworks, JavaScript, or build step. It loads the Roboto typeface from Google Fonts and uses local app screenshots to support the presentation. Visual interactions and the mobile menu are powered by CSS only.
 
 ![PUMPED app home screen](assets/images/image-1.png)
 
@@ -123,6 +124,7 @@ This is a static front-end project with no dependencies, frameworks, or build st
 │       └── image-3.png      # Targeted-workout screen
 ├── docs/
 │   └── plan.md              # Original brief and project plan
+├── .gitignore               # Files and folders ignored by Git
 ├── index.html               # Landing page structure and content
 ├── styles.css               # Styles, interactions, and responsiveness
 └── README.md
@@ -163,7 +165,7 @@ Alternatively, use the **Live Server** VS Code extension to serve the page local
 
 ## Notes
 
-The “Baixar App” buttons link to the `#download` anchor, and the Contact link points to `#contato`. Those sections are not present in the current HTML yet, so they can be added when real destinations are available.
+The “Baixar App” buttons link to the `#download` anchor, and the Contact link points to `#contato`. Those sections are not present in the current HTML yet, so they can be added when real destinations are available. Although `script.js` was mentioned, it does not exist in the current project state.
 
 ---
 
